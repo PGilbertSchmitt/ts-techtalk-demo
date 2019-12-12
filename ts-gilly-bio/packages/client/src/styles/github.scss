@@ -1,0 +1,68 @@
+@import './variables';
+
+.github-view {
+  width: 500px;
+  height: 400px;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  background-color: $grey;
+
+  .repo-view {
+    margin: 0;
+    border-bottom: 1px solid grey;
+    background-color: transparent;
+
+    &:last-child {
+      border: 0;
+    }
+
+    .repo-header {
+      width: 100%;
+      height: 10px;
+      margin: 0;
+      padding: 0;
+      padding-left: 10px;
+      font-family: $mono;
+      background-color: transparent;
+
+      &.header-open {
+        border-bottom: 1px solid black;
+        margin-bottom: 5px;
+      }
+    }
+
+    .commit-box {
+      width: 100%;
+      padding: 0;
+
+      .commit-list {
+        width: 100%;
+        padding: 0;
+
+        .commit-item {
+          // border-top: 1px solid lightgray;
+          width: calc(100% - 10px);
+          margin: 0 5px 0px 5px;
+
+          &:first-child {
+            border: none;
+          }
+
+          .commit-message {
+            margin: 0;
+            font-family: $mono;
+          }
+
+          .commit-note {
+            margin: 0;
+            font-family: $mono;
+
+            a {
+              text-decoration: none;
+            }
+          }
+        }
+      }
+    }
+  }
+}

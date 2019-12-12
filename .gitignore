@@ -1,0 +1,6 @@
+node_modules/
+ts-gilly-bio/node_modules/
+
+ts-gilly-bio/db.env
+ts-gilly-bio/packages/*/dist/
+ts-gilly-bio/packages/server/public/dist/

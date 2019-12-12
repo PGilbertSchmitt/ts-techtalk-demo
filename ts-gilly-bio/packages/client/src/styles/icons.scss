@@ -1,0 +1,17 @@
+@import './variables';
+
+i.icon {
+  display: block;
+  min-width: 10px;
+  flex-shrink: 0;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+i.icon.commit-icon {
+  background-image: url('/assets/gh_commit_icon.svg');
+}
+
+i.icon.merge-icon {
+  background-image: url('/assets/gh_merge_icon.svg');
+}

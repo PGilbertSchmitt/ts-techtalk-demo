@@ -1,0 +1,13 @@
+@import './variables';
+
+body {
+  background-color: $grey;
+}
+
+a {
+  text-decoration: none;
+}
+
+a.underlined {
+  text-decoration: underline;
+}

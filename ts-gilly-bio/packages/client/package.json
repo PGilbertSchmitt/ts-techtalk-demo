@@ -1,0 +1,49 @@
+{
+  "name": "@gilly/client",
+  "version": "0.0.0",
+  "description": "Portfolio site's frontend, written in React",
+  "author": "PGilbertSchmitt@gmail.com",
+  "license": "MIT",
+  "dependencies": {
+    "@material-ui/core": "^3.9.2",
+    "@material-ui/icons": "^3.0.2",
+    "axios": "^0.18.0",
+    "date-fns": "^1.30.1",
+    "hbs": "^4.0.3",
+    "highlight.js": "^9.15.8",
+    "jss": "^9.8.7",
+    "ramda": "^0.26.1",
+    "react": "^16.8.2",
+    "react-dom": "^16.8.2",
+    "react-jss": "^8.6.1",
+    "react-media": "^1.9.2",
+    "react-router-dom": "^5.0.0"
+  },
+  "devDependencies": {
+    "@types/axios": "^0.14.0",
+    "@types/highlight.js": "^9.12.3",
+    "@types/material-ui": "^0.21.6",
+    "@types/ramda": "^0.26.6",
+    "@types/react": "^16.8.3",
+    "@types/react-dom": "^16.8.2",
+    "@types/react-router-dom": "^4.3.1",
+    "css-loader": "^2.1.1",
+    "node-sass": "^4.11.0",
+    "sass-loader": "^7.1.0",
+    "source-map-loader": "^0.2.4",
+    "style-loader": "^0.23.1",
+    "ts-loader": "^5.3.3",
+    "ts-node": "^8.0.2",
+    "tsconfig-paths-webpack-plugin": "^3.2.0",
+    "tslint": "^5.12.1",
+    "typescript": "^3.4",
+    "webpack": "^4.29.4",
+    "webpack-cli": "^3.2.3",
+    "webpack-fix-default-import-plugin": "^1.0.3"
+  },
+  "scripts": {
+    "build": "webpack --watch",
+    "build:once": "webpack",
+    "serve": "webpack-dev-server --config webpack.config.js"
+  }
+}
